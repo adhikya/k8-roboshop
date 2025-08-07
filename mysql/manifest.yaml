@@ -1,4 +1,4 @@
-apiVersion: v1
+piVersion: v1
 kind: Secret
 metadata:
   name: mysql
@@ -41,7 +41,7 @@ spec:
         image: joindevops/mysql:v1
         envFrom:
         - secretRef:
-          name: mysql
+            name: mysql
 ---
 apiVersion: v1
 kind: Service
